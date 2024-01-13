@@ -25,7 +25,7 @@ const projects = [
     description:
       'Fullstack project that allows users to find jobs and apply for them. and also allows recruiters to post jobs and manage them.',
     stack: ['React', 'node', 'Express', 'MongoDB'],
-    sourceCode: 'https://github.com/skander23000/JobFinder-Projects',
+    sourceCode: 'https://github.com/skander23000/JobFinder-Project',
     livePreview: 'https://jobfinder-skander.netlify.app/user-auth',
   },
   {
