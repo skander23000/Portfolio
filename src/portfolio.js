@@ -1,3 +1,9 @@
+const header = {
+  // all the properties are optional - can be left empty or deleted
+  homepage: '',
+  title: '',
+}
+
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Skander',
@@ -89,4 +95,4 @@ const contact = {
   email: 'Skander.Chouiter@etu.univ-grenoble-alpes.fr',
 }
 
-export { about, projects, skills, contact }
+export { header, about, projects, skills, contact }
