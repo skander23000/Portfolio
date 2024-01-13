@@ -1,18 +1,12 @@
-const header = {
-  // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/Portfolio',
-  title: '',
-}
-
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Skander',
   role: 'Fullstack Enthusiast',
   description:
     'First-year Master’s student in Computer Science at Grenoble Alpes University, looking for a web development internship starting from May 2024, ideally with the possibility of continuing as a work-study for my Master’s 2.',
-  resume: 'https://example.com',
+  resume: 'https://plum-leslie-9.tiiny.site/',
   social: {
-    linkedin: 'https://www.linkedin.com/in/skander-chouiter-867245211/w',
+    linkedin: 'https://www.linkedin.com/in/skander-chouiter-867245211/',
     github: 'https://github.com/skander23000',
   },
 }
@@ -34,7 +28,7 @@ const projects = [
       'A clone of the website Rawg.io using their API and React library like Zustand, React Query, React Router.',
     stack: ['TypeScript', 'React'],
     sourceCode: 'https://github.com/skander23000/games-skander',
-    livePreview: 'game-react-project.vercel.app',
+    livePreview: 'https://game-react-project.vercel.app/',
   },
   {
     name: 'Pokedex',
@@ -42,7 +36,7 @@ const projects = [
       'A Pokedex application that allows users to search for pokemons, see their details and modify them. ',
     stack: ['TypeScript', 'React', 'Firebase'],
     sourceCode: 'https://github.com/skander23000/react-pokedex-app',
-    livePreview: 'pokedex-react-app-8fc9b.web.app/',
+    livePreview: 'https://pokedex-react-app-8fc9b.web.app/',
   },
 
   {
