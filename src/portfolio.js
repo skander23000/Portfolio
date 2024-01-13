@@ -89,4 +89,4 @@ const contact = {
   email: 'Skander.Chouiter@etu.univ-grenoble-alpes.fr',
 }
 
-export { header, about, projects, skills, contact }
+export { about, projects, skills, contact }
