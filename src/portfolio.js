@@ -8,7 +8,7 @@ const about = {
   role: 'Fullstack Enthusiast',
   description: 
     'Currently finishing my work-study program in the second year of my Master\'s in Computer Science at Grenoble Alpes University, I am seeking a full-time position.',
-  resume: 'https://plum-leslie-9.tiiny.site/',
+  resume: 'https://skander-chouiter-cv.tiiny.site',
   social: {
     linkedin: 'https://www.linkedin.com/in/skander-chouiter-867245211/',
     github: 'https://github.com/skander23000',
@@ -44,7 +44,7 @@ const projects = [
     name: 'MstrTire',
     description: 'MstrTire is an e-commerce application specialized in tire sales.',
     stack: ['Angular', 'SpringBoot', 'PostgreSQL with Liquibase', 'Containerization'],
-    sourceCode: 'https://github.com/skander23000/CyberVideo',
+    sourceCode: 'https://github.com/skander23000/rslmdevops',
   },
   {
     name: 'NutriSport',
