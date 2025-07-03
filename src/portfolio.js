@@ -9,7 +9,7 @@ const about = {
   name: 'Skander',
   role: 'Fullstack Enthusiast',
   description:
-    'First-year Master’s student in Computer Science at Grenoble Alpes University, looking for a web development internship starting from May 2024, ideally with the possibility of continuing as a work-study for my Master’s 2.',
+    'Currently finishing my work-study program in my second year of a Master's in Computer Science at Grenoble Alpes University, I am looking for a full-time position. ',
   resume: 'https://plum-leslie-9.tiiny.site/',
   social: {
     linkedin: 'https://www.linkedin.com/in/skander-chouiter-867245211/',
