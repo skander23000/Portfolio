@@ -1,15 +1,13 @@
 const header = {
-  // all the properties are optional - can be left empty or deleted
   homepage: '',
   title: '',
 }
 
 const about = {
-  // all the properties are optional - can be left empty or deleted
   name: 'Skander',
   role: 'Fullstack Enthusiast',
-  description:
-    'Currently finishing my work-study program in my second year of a Master's in Computer Science at Grenoble Alpes University, I am looking for a full-time position. ',
+  description: 
+    'Currently finishing my work-study program in the second year of my Master\'s in Computer Science at Grenoble Alpes University, I am seeking a full-time position.',
   resume: 'https://plum-leslie-9.tiiny.site/',
   social: {
     linkedin: 'https://www.linkedin.com/in/skander-chouiter-867245211/',
@@ -18,8 +16,6 @@ const about = {
 }
 
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
   {
     name: 'JobFinder',
     description:
@@ -44,7 +40,12 @@ const projects = [
     sourceCode: 'https://github.com/skander23000/react-pokedex-app',
     livePreview: 'https://pokedex-react-app-8fc9b.web.app/',
   },
-
+  {
+    name: 'MstrTire',
+    description: 'MstrTire is an e-commerce application specialized in tire sales.',
+    stack: ['Angular', 'SpringBoot', 'PostgreSQL with Liquibase', 'Containerization'],
+    sourceCode: 'https://github.com/skander23000/CyberVideo',
+  },
   {
     name: 'NutriSport',
     description:
@@ -53,35 +54,27 @@ const projects = [
     sourceCode: 'https://github.com/skander23000/NutriSport',
   },
   {
-    name: 'E-commerce ',
+    name: 'TechBox',
     description:
-      'E-commerce web application for the sale of hardware products.',
+      'TechBox was my first fullstack web application for the sale of hardware products.',
     stack: ['PHP', 'MySQL'],
     sourceCode: 'https://github.com/skander23000/php_project',
   },
-  {
-    name: 'CyberVideo',
-    description: 'Desktop application for managing a video club.',
-    stack: ['Java', 'Swing', 'SQL'],
-    sourceCode: 'https://github.com/skander23000/CyberVideo',
-  },
+ 
 ]
 
 const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
-  'JavaScript',
   'TypeScript',
-  'React',
-  'Node',
-  'Express',
-  'MongoDB',
-  'PHP',
-  'Laravel',
-  'MySQL',
+  'React/Angular',
+  'Node/Nest',
   'Java',
-  'Python',
+  'Spring Boot',
+  'NoSQL',
+  'MySQL',
   'Git',
+  'Docker',
+  'kubernetes',
+  'DevOps',
   'Communication',
   'Teamwork',
   'Problem-solving',
@@ -91,7 +84,6 @@ const skills = [
 ]
 
 const contact = {
-  // email is optional - if left empty Contact section won't show up
   email: 'skanderchouiter@gmail.com',
 }
 
