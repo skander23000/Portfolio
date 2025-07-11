@@ -1,0 +1,230 @@
+.experience__container {
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.experience__container::before {
+  content: '';
+  position: absolute;
+  left: 30px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(
+    to bottom,
+    var(--clr-primary),
+    var(--clr-primary) 50%,
+    transparent 50%,
+    transparent
+  );
+  background-size: 2px 20px;
+}
+
+.experience__item {
+  position: relative;
+  margin-bottom: 3em;
+  padding-left: 80px;
+  background-color: var(--clr-bg-alt);
+  border-radius: 12px;
+  padding: 2em 2em 2em 80px;
+  box-shadow: var(--shadow);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience__item:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow), 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.experience__item::before {
+  content: '';
+  position: absolute;
+  left: -45px;
+  top: 30px;
+  width: 20px;
+  height: 20px;
+  background-color: var(--clr-primary);
+  border-radius: 50%;
+  border: 4px solid var(--clr-bg);
+  z-index: 2;
+}
+
+.experience__header {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.5em;
+}
+
+.experience__icon {
+  position: absolute;
+  left: -60px;
+  top: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: var(--clr-primary);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  z-index: 3;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.experience__info {
+  flex: 1;
+}
+
+.experience__company {
+  color: var(--clr-primary);
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 0.3em;
+}
+
+.experience__role {
+  color: var(--clr-fg-alt);
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 0.8em;
+}
+
+.experience__meta {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+
+.experience__duration {
+  color: var(--clr-fg);
+  font-size: 0.9rem;
+  font-weight: 500;
+  background-color: var(--clr-bg);
+  padding: 0.3em 0.8em;
+  border-radius: 20px;
+  border: 1px solid var(--clr-primary);
+}
+
+.experience__type {
+  padding: 0.3em 0.8em;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.experience__type--alternance {
+  background-color: #e8f5e8;
+  color: #2d5e2d;
+}
+
+.experience__type--stage {
+  background-color: #e8f0ff;
+  color: #2d4a85;
+}
+
+.dark .experience__type--alternance {
+  background-color: #2d5e2d;
+  color: #a8d8a8;
+}
+
+.dark .experience__type--stage {
+  background-color: #2d4a85;
+  color: #a8c8ff;
+}
+
+.experience__description {
+  margin-top: 1.5em;
+}
+
+.experience__description-item {
+  position: relative;
+  padding-left: 1.2em;
+  margin-bottom: 0.8em;
+  color: var(--clr-fg);
+  line-height: 1.6;
+}
+
+.experience__description-item::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: var(--clr-primary);
+  font-weight: bold;
+}
+
+.experience__description-item:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .experience__container::before {
+    left: 20px;
+  }
+  
+  .experience__item {
+    padding: 1.5em 1.5em 1.5em 60px;
+    margin-bottom: 2em;
+  }
+
+  .experience__item::before {
+    left: -35px;
+    width: 16px;
+    height: 16px;
+    top: 25px;
+  }
+
+  .experience__icon {
+    left: -45px;
+    width: 40px;
+    height: 40px;
+    top: 15px;
+  }
+
+  .experience__icon svg {
+    font-size: 1.2rem;
+  }
+
+  .experience__company {
+    font-size: 1.2rem;
+  }
+
+  .experience__role {
+    font-size: 1rem;
+  }
+
+  .experience__meta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5em;
+  }
+}
+
+@media (max-width: 600px) {
+  .experience__container::before {
+    display: none;
+  }
+
+  .experience__item {
+    padding: 1.5em;
+    margin-bottom: 1.5em;
+  }
+
+  .experience__item::before {
+    display: none;
+  }
+
+  .experience__icon {
+    position: static;
+    width: 35px;
+    height: 35px;
+    margin-bottom: 1em;
+  }
+
+  .experience__header {
+    flex-direction: column;
+  }
+}
